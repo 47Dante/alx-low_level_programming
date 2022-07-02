@@ -1,17 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabetic
+ * main - Prints numbers 0 - 9
  *
  * Return: Always (Success)
  */
+
 int main(void)
 {
-	char c;
+	int n;
 
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
-
+	for (n = '0'; n <= '9'; n++)
+	{
+		putchar(n);
+	}
 	putchar('\n');
 	return (0);
 }
