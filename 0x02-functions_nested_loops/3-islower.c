@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * _islower - Short description, single line
  * @c: contains a value to be compared
