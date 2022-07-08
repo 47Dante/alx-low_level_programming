@@ -4,17 +4,16 @@
  */
 int main(void)
 {
-	int x;
+	int i;
 
-	printf("infinite loop incoming :(\n");
-	x = 0;
-	/*
-	 * while (x < 0)
-	 * {
-	 * Infinite loop - No increase of variable
-	 * putchar(x);
-	 * }
-	 */
+	printf("Infinite loop incoming :(\n");
+
+	i = 0;
+
+	/*while (i < 10)*/
+	/*{*/
+	/* putchar(i);*/
+	/*}*/
 	printf("Infinite loop avoided! \\o/\n");
 	return (0);
 }
