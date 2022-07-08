@@ -5,14 +5,19 @@
  */
 int main(void)
 {
-	long n, i;
+	long x, maxf;
+	
+	long number = 612852475143;
+	double square = sqrt(number);
 
-	n = 612852475143;
-	for (i = 2; i < n; i++)
+	for (x = 1; x <= square; x++)
 	{
-		while (n % i == 0)
-			n = n / 1;
+		if (number % x == 0)
+		{
+			maxf = number / x;
 		}
-	printf("%lu\n", n);
+	}
+	printf("%ld\n", maxf);
 	return (0);
 }
+	
